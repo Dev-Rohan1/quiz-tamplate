@@ -1,0 +1,99 @@
+/* ======= signup wrapper css ==== */
+.signup_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-color);
+}
+
+/* ========= illustration css ====== */
+.illustration {
+  flex-basis: 49%;
+}
+.illustration img {
+  width: 100%;
+}
+
+/* =========== form css ========= */
+.from {
+  flex-basis: 49%;
+}
+/* ========= text input .css =========== */
+.text_input {
+  width: 100%;
+  height: 45px;
+  background: var(--header-bg-color);
+  margin-bottom: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.text_input input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  color: var(--text-color);
+  font-family: "Outfit", sans-serif;
+}
+
+.text_input input::placeholder {
+  color: var(--text-color);
+}
+
+.text_input span {
+  font-size: 25px;
+}
+/* ======== checkbox css ===== */
+.checkbox {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.checkbox input[type="checkbox"] {
+  height: 16px;
+  width: 16px;
+}
+
+/* ======== sign up btn css ======= */
+.form_submit {
+  width: 100%;
+  height: 45px;
+  background: var(--header-bg-color);
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  margin: 20px 0px;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  transition: transform 0.1s;
+}
+
+.form_submit:active {
+  transform: scale(0.95);
+}
+
+/* ========= info css ========= */
+.info {
+  text-align: center;
+}
+
+.info span {
+  font-size: 17px;
+}
+
+.info span a {
+  color: rgb(8 145 178);
+  padding: 0px 3px;
+}

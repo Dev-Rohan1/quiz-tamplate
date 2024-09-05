@@ -1,0 +1,178 @@
+/* =========== imoort google font - (Outfit/Poppins)  */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* =========== universel selector css ============ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ========= body css ========== */
+body {
+  font-family: "Outfit", sans-serif;
+}
+:root {
+  --header-bg-color: rgb(30 41 59);
+  --text-color: #fff;
+  --primary-bg: rgb(71 85 105);
+  --section-bg: rgb(15 23 42);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(51 65 85);
+  color: var(--primary-bg);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-bg);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  background-color: var(--section-bg);
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  padding: 15px 20px;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 35px;
+}
+
+/* ====== header css ======== */
+header {
+  background-color: var(--header-bg-color);
+  position: fixed;
+  width: 100%;
+}
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ====== logo css ====== */
+.nav_bar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .logo span {
+    display: none;
+  }
+}
+
+/* ========= account css ======= */
+.account {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.material-symbols-rounded {
+  color: var(--text-color);
+  font-size: 35px;
+}
+
+.user_name {
+  font-size: 17px;
+  color: var(--text-color);
+}
+
+.signup_btn {
+  color: var(--text-color);
+  font-size: 17px;
+  transition: transform 0.1s;
+  font-family: "Outfit", sans-serif;
+}
+
+.signup_btn:active {
+  transform: scale(0.95);
+}
+
+.login_btn {
+  border: 1.5px solid var(--text-color);
+  color: var(--text-color);
+  padding: 4px 20px;
+  border-radius: 5px;
+  transition: transform 0.1s;
+  font-family: "Outfit", sans-serif;
+}
+
+.login_btn:active {
+  transform: scale(0.95);
+}
+
+.logout {
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.logout:active {
+  transform: scale(0.95);
+}
+
+/* ======== video  css ======== */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.video {
+  background-color: var(--header-bg-color);
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.video img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.video h3 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.score-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.score-box span {
+  font-size: 17px;
+}

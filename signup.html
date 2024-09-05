@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <!-- ======== website favicon image ========== -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- ======= google icon link ======= -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- =========== css file link ========= -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/signup.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav_bar container">
+        <a href="./index.html" class="logo">
+          <img src="./images/quiz.png" alt="quiz-image" />
+          <span>React Quiz App</span>
+        </a>
+        <div class="account">
+          <span class="material-symbols-rounded"> account_circle </span>
+          <!-- <span class="user_name">Rohan</span> -->
+          <a class="signup_btn" href="signup.html">Sign Up</a>
+          <a class="login_btn" href="">Login</a>
+          <!-- <span class="material-symbols-rounded logout"> logout </span> -->
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container">
+        <h1>Create an account</h1>
+        <div class="signup_wrapper">
+          <div class="illustration">
+            <img src="./images/sign.png" alt="signup_image" />
+          </div>
+          <form class="from">
+            <div class="text_input">
+              <input type="text" placeholder="Enter Your Name" />
+              <span class="material-symbols-rounded"> account_circle </span>
+            </div>
+            <div class="text_input">
+              <input type="email" placeholder="Enter Your Email" />
+              <span class="material-symbols-rounded"> mail </span>
+            </div>
+            <div class="text_input">
+              <input type="password" placeholder="Enter Your Password" />
+              <span class="material-symbols-rounded"> lock </span>
+            </div>
+            <div class="text_input">
+              <input
+                type="password"
+                placeholder="Enter Your Confrim Password"
+              />
+              <span class="material-symbols-rounded"> lock_clock </span>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" />
+              <span>I agree to the Terms & Conditions</span>
+            </label>
+            <button class="form_submit" type="submit">Sign Up</button>
+            <div class="info">
+              <span
+                >Already have an account? <a href="">Login</a> instead.</span
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
