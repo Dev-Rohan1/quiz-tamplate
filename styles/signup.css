@@ -76,6 +76,7 @@
 .checkbox input[type="checkbox"] {
   height: 16px;
   width: 16px;
+  cursor: pointer;
 }
 
 /* ======== sign up btn css ======= */

@@ -17,6 +17,8 @@ body {
   --text-color: #fff;
   --primary-bg: rgb(71 85 105);
   --section-bg: rgb(15 23 42);
+  --correct-color: #00ff84;
+  --wrong-color: #138c41;
 }
 
 ::-webkit-scrollbar {
@@ -56,9 +58,29 @@ h1 {
   font-size: 35px;
 }
 
+.multiple-ans {
+  color: var(--text-color);
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.question {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: 0.5px solid rgb(58, 65, 75);
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 600px) {
-  h1 {
+  h1,
+  .multiple-ans {
     font-size: 25px;
+  }
+  .multiple-ans {
+    font-size: 18px;
   }
 }
 

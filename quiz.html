@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+    <!-- ======== website favicon image ========== -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- ======= google icon link ======= -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- =========== css file link ========= -->
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./styles/quiz.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav_bar container">
+        <a href="./index.html" class="logo">
+          <img src="./images/quiz.png" alt="quiz-image" />
+          <span>React Quiz App</span>
+        </a>
+        <div class="account">
+          <span class="material-symbols-rounded"> account_circle </span>
+          <!-- <span class="user_name">Rohan</span> -->
+          <a class="signup_btn" href="./signup.html">Sign Up</a>
+          <a class="login_btn" href="./login.html">Login</a>
+          <!-- <span class="material-symbols-rounded logout"> logout </span> -->
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container">
+        <h1 class="question">Pick three of your favorite Star Wars Flims</h1>
+        <p class="multiple-ans">Question can have multiple answers</p>
+        <hr />
+        <div class="answers">
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label class="wrong">
+            <input type="checkbox" /> <span>A New Hope 1</span>
+          </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label class="correct">
+            <input type="checkbox" /> <span>A New Hope 1</span>
+          </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+          <label> <input type="checkbox" /> <span>A New Hope 1</span> </label>
+        </div>
+        <div class="progressBar">
+          <div class="right-arrow">
+            <span class="material-symbols-rounded"> arrow_left_alt </span>
+          </div>
+          <div class="range">
+            <input type="range" disabled value="5" />
+          </div>
+          <a href="/result.html" class="next_btn"
+            ><button>Next Question</button
+            ><span class="material-symbols-rounded"> arrow_right_alt </span></a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
